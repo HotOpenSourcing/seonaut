@@ -25,7 +25,6 @@ go.work
 go.work.sum
 
 # env file
-.env
 
 # Ignore everything in build/* except .gitkeep
 /build/*/*
@@ -45,3 +44,5 @@ archive/*
 web/static/*
 !web/static/favicon.ico
 !web/static/robots.txt
+config.bat
+node_modules
